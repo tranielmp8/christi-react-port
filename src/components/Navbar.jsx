@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {Link} from 'react-scroll'
 import {FaTimes} from 'react-icons/fa'
 import { CiMenuFries } from "react-icons/ci"
+import Cp4 from '../assets/images/cp4.png'
 
 
 export default function Navbar() {
@@ -10,22 +11,22 @@ export default function Navbar() {
     setClick(!click)
   }
   const content = <>
-    <div className='lg:hidden block absolute h-[100vh] top-16 w-full left-0 right-0 bg-slate-700 transition z-50 hamburger'>
+    <div className='lg:hidden block absolute h-[100vh] top-16 w-full left-0 right-0 bg-[#E7DFD8] transition z-50 hamburger'>
       <ul className='text-center text-xl p-20'>
         <Link spy={true} smooth={true} to="Home">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-slate-300 hover:rounded'>Home</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Home</li>
         </Link>
         <Link spy={true} smooth={true} to="About">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-slate-300 hover:rounded'>About</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>About</li>
         </Link>
         <Link spy={true} smooth={true} to="Services">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-slate-300 hover:rounded'>Services</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Services</li>
         </Link>
         <Link spy={true} smooth={true} to="Projects">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-slate-300 hover:rounded'>Projects</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Projects</li>
         </Link>
         <Link spy={true} smooth={true} to="Contact">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-slate-300 hover:rounded'>Contact</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Contact</li>
         </Link>
        
       </ul>
@@ -33,7 +34,7 @@ export default function Navbar() {
     </>
   return (
     <nav>
-      <div className='h-5v flex justify-center items-center text-white lg:py-5 px-20  shadow-md'>
+      <div className='h-5v nav-container flex justify-center items-center text-white lg:py-5 px-20  shadow-md'>
           {/* <a className='flex items-end rounded-full p-3  ml-10 logo' href="#">
             <h1 className=''>LOGO</h1>
           </a> */}
@@ -50,7 +51,7 @@ export default function Navbar() {
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Coaching</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Projects">
-              <li className='nav-link hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer'>LOGO</li>
+              <li className='nav-link hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer'><img src={Cp4} width={35} alt="" /></li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Projects">
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Projects</li>
@@ -67,7 +68,7 @@ export default function Navbar() {
         <div>
           {click && content}
         </div>
-        <button className='block sm:hidden transition' onClick={handleClick}>
+        <button className='block sm:hidden transition nav-icons' onClick={handleClick}>
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>

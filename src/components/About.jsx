@@ -9,7 +9,7 @@ export default function About() {
                 C O A C H <br />C H R I S T I
             </div>
             <img  src={Img4} width={420} alt="Christi" className='bg-[#6A7775] shadow-md' />
-            <div className='w-[25%] ml-12 text-[#6A7775] ' >
+            <div className='w-[25%] ml-12 text-[#6A7775] about-text ' >
                 <p className='text-xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae repudiandae commodi natus, sed enim odio fugit? Libero consequatur accusamus id.</p>
                 <br />
                 <p className='text-xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quasi quis. Ab quidem dolorum porro ratione quos eaque voluptatum veniam rem.</p>
