@@ -15,7 +15,7 @@ export default function About() {
                 <p className='text-xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quasi quis. Ab quidem dolorum porro ratione quos eaque voluptatum veniam rem.</p>
             </div>
         </div>
-        <button className='abt-btn text-[27px] m-7 bg-[#6A7775] rounded-xl '>My Story</button>
+        <button className='abt-btn text-[27px] m-7 bg-[#E7DFD8] rounded-xl hover:border-2 hover:border-white hover:bg-transparent'>My Story</button>
         
     </div>
   )

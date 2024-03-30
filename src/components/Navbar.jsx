@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {Link} from 'react-scroll'
 import {FaTimes} from 'react-icons/fa'
 import { CiMenuFries } from "react-icons/ci"
-import Cp4 from '../assets/images/cp4.png'
+import Cp5 from '../assets/images/cp5.png'
 
 
 export default function Navbar() {
@@ -34,33 +34,33 @@ export default function Navbar() {
     </>
   return (
     <nav>
-      <div className='h-12v nav-container flex justify-center items-center text-white lg:py-5 px-20  '>
+      <div className='h-14v nav-container flex justify-center items-center text-white lg:py-5 px-20  '>
           {/* <a className='flex items-end rounded-full p-3  ml-10 logo' href="#">
             <h1 className=''>LOGO</h1>
           </a> */}
         <div className='lg:flex md:flex lg:  items-center justify-around font-normal hidden'>
           <div className='flex justify-center items-center p-3'>
-            <ul className='flex gap-9 mr-16 text-[16px] '>
+            <ul className='flex gap-9 mr-16 text-[16px] items-center '>
             <Link className='' spy={true} smooth={true} to="Home">
-              <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-200 cursor-pointer'>Home</li>
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Home</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="About">
-              <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>About</li>
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>About</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Technology">
-              <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Coaching</li>
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Coaching</li>
             </Link>
             <Link className='rounded-full nav-logo' spy={true} smooth={true} to="Projects">
-              <li className='nav-link nav-logo hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer rounded-full'><img src={Cp4} width={80} alt="" /></li>
+              <li className='nav-link nav-logo hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer rounded-full'><img src={Cp5} width={120} alt="" /></li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Projects">
-              <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Projects</li>
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Projects</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Contact">
-              <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Contact</li>
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Contact</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Consult">
-              <li className='nav-link  transition border-white cursor-pointer consult bg-[#6A7775] rounded-lg hover:bg-white'>Free Consult</li>
+              <li className='nav-link  transition border-white cursor-pointer consult bg-[#E7DFD8] hover:text-white rounded-lg hover:border-white hover:border-4 hover:bg-transparent'>Free Consult</li>
             </Link>
             </ul>
           </div>

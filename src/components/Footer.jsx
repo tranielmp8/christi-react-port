@@ -1,6 +1,6 @@
 
 import { FaGithub, FaDiscord, FaLinkedinIn } from 'react-icons/fa'
-import cp3 from '../assets/images/cp3.png'
+import cp6 from '../assets/images/cp6.png'
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           <p className='text-[16px] py-4 my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, laudantium.</p>
         </div> */}
         <div>
-          <img src={cp3} alt="" className='' width={100} />
+          <img src={cp6} alt="" className='' width={100} />
         </div>
         <div className='md:mb-0'>
           <h2 className='text-[22px] font-semibold text-[#6A7775] py-2 uppercase'>Contact</h2>
@@ -20,14 +20,14 @@ export default function Footer() {
         <div className='mb-4 md:mb-0'>
           <h2 className='text-[22px] font-semibold text-[#6A7775] py-2 uppercase'>Follow Me</h2>
           <div className='flex space-x-4 my-4'>
-            <a className='text-xl text-[#6a7775] rounded-full p-2  shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="https://github.com/tranielmp8" target='_blank'>
+            <a className='foot-icon  text-xl text-[#6a7775] rounded-full p-2  shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="https://github.com/tranielmp8" target='_blank'>
               <FaGithub />
             </a>
-            <a className='text-xl text-[#6a7775] rounded-full p-2 shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="https://www.linkedin.com/in/traniel-pride/" target='_blank'>
+            <a className='foot-icon text-xl text-[#6a7775] rounded-full p-2 shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="https://www.linkedin.com/in/traniel-pride/" target='_blank'>
               <FaLinkedinIn />
             </a>
             
-            <a className='text-xl text-[#6a7775] rounded-full p-2 shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="#footer" onClick={() => alert('My Discord Alias: kakashi_sensei#8333')}>
+            <a className='foot-icon text-xl text-[#6a7775] rounded-full p-2 shadow-lg hover:text-gray-500 transition-all duration-150 ease-in-out' href="#footer" onClick={() => alert('My Discord Alias: kakashi_sensei#8333')}>
               <FaDiscord />
               {}
             </a>

@@ -3,7 +3,7 @@ import Site1 from '../assets/images/site1.jpg'
 export default function Sites() {
   return (
     <div id='Sites' className='sites p-16 flex flex-col min-h-screen items-center justify-center bg-white '>
-      <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-[#6A7775]'>Visit the Sites</h1>
+      <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-[#6A7775] site-header'>Visit the Sites</h1>
       <div data-aos='fade-up' className='cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-7'>
         <div className='w-72 rounded-xl card text-white p-2 shadow-lg project-container'>
           <img  height={350} width={300} className='bg-white rounded-xl border-2 border-[#6A7775]' src={Site1}  alt="courses" />

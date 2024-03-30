@@ -4,7 +4,11 @@
 
 body {
   color: #fff;  
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Brown Sugar', sans-serif;
 }
 
 .app {
@@ -12,18 +16,16 @@ body {
 }
 
 .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
-  border-bottom: #6A7775;
-  font-size: 36px;
+  font-family: 'Brown Sugar', sans-serif;
+  font-size: 27px;
 }
 
 .nav-link:hover {
-  text-shadow: #eee 1px 0 10px;
-  color: #6A7775;
+  color: #b6f3ea;
 }
 
 .nav-logo:hover {
-  box-shadow: 0 0 15px #6a7775;
+  box-shadow: 0 0 15px #e6f6ee;
 
 }
 
@@ -37,8 +39,6 @@ body {
 }
 
 .text-container {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 }
 
 .teacher {
@@ -61,13 +61,17 @@ body {
 }
 
 .right-subscribe {
-  border: 50px solid #6A7775;
+  border: 50px solid #E7DFD8;
   background-color: #fff;
 }
 
 .subscribe-btn {
-  background: #6A7775;
+  background: #E7DFD8;
   padding: 5px 15px;
+}
+
+.site-header {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bar {
@@ -88,6 +92,9 @@ input {
   border-radius: 10px;
 }
 
+.foot-icon:hover {
+  box-shadow: 0 0 15px #6a7775;
+}
 
 
 /* #contact {
