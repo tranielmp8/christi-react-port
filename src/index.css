@@ -8,22 +8,28 @@ body {
 }
 
 .app {
-  background: #E7DFD8;
+  background: #6a7775;
 }
 
 .nav-link {
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: #6A7775;
+  font-size: 36px;
 }
 
 .nav-link:hover {
   text-shadow: #eee 1px 0 10px;
-  
+  color: #6A7775;
+}
+
+.nav-logo:hover {
+  box-shadow: 0 0 15px #6a7775;
+
 }
 
 .image-container {
   position: relative;
-  background-color: #6A7775;
+  background-color: #e6f6ee;
 }
 
 .consult {
@@ -36,7 +42,7 @@ body {
 }
 
 .teacher {
-  right: -37%;
+  right: -42%;
   bottom: 16%;
   z-index: 10;
 }

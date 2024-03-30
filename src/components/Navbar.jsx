@@ -34,12 +34,12 @@ export default function Navbar() {
     </>
   return (
     <nav>
-      <div className='h-5v nav-container flex justify-center items-center text-white lg:py-5 px-20  shadow-md'>
+      <div className='h-12v nav-container flex justify-center items-center text-white lg:py-5 px-20  '>
           {/* <a className='flex items-end rounded-full p-3  ml-10 logo' href="#">
             <h1 className=''>LOGO</h1>
           </a> */}
         <div className='lg:flex md:flex lg:  items-center justify-around font-normal hidden'>
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center p-3'>
             <ul className='flex gap-9 mr-16 text-[16px] '>
             <Link className='' spy={true} smooth={true} to="Home">
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-200 cursor-pointer'>Home</li>
@@ -50,8 +50,8 @@ export default function Navbar() {
             <Link className='' spy={true} smooth={true} to="Technology">
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Coaching</li>
             </Link>
-            <Link className='' spy={true} smooth={true} to="Projects">
-              <li className='nav-link hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer'><img src={Cp4} width={35} alt="" /></li>
+            <Link className='rounded-full nav-logo' spy={true} smooth={true} to="Projects">
+              <li className='nav-link nav-logo hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer rounded-full'><img src={Cp4} width={80} alt="" /></li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Projects">
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Projects</li>
@@ -60,7 +60,7 @@ export default function Navbar() {
               <li className='nav-link  transition hover:border-b-2 border-white hover:border-slate-300 cursor-pointer'>Contact</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Consult">
-              <li className='nav-link  transition border-white cursor-pointer consult bg-[#6A7775] rounded-lg '>Free Consult</li>
+              <li className='nav-link  transition border-white cursor-pointer consult bg-[#6A7775] rounded-lg hover:bg-white'>Free Consult</li>
             </Link>
             </ul>
           </div>

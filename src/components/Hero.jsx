@@ -13,18 +13,18 @@ export default function Hero() {
             src={Img3} 
             alt="teacher" 
             width={525}
-            className='teacher bg-[#6A7775] absolute p-1'
+            className='teacher bg-[#E7DFD8] absolute p-1'
             />
           </div>
           
-          <div className="hero-text flex flex-col ml-80">
+          <div className="hero-text flex flex-col ml-96">
             <div className=''>
               <h1 className="text-[56px] mb-2 text-[#6A7775]">Life <br />Coaching</h1>
               <div className='text-container'>
                 <p className="text-white text-lg mb-2">Enpowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldy in Confidence</p>
               </div>
             </div>
-            <button className='mt-7 p-2 bg-[#6A7775] rounded-lg text-white text-[22px]'>Signup Now!</button>
+            <button className='mt-7 p-2 bg-[#E7DFD8] rounded-lg text-white text-[22px]'>Signup Now!</button>
           </div>
         </div>
     </div>
