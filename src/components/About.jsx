@@ -5,17 +5,18 @@ export default function About() {
     <div id="About" className="about flex flex-col items-center p-7">
         <h1 className='text-center text-[48px] mb-7 text-[#6A7775]'>Meet Christi Pride</h1>
         <div className="about-grid flex justify-center items-center bg-white w-[72%]">
-            <div className='text-[60px] pt-9 mr-9 text-[#6A7775]'>
+            <div className='text-[70px] pt-9 mr-9 text-[#6A7775]'>
                 C O A C H <br />C H R I S T I
             </div>
-            <img  src={Img4} width={420} alt="Christi" className='bg-[#6A7775] shadow-md' />
-            <div className='w-[25%] ml-12 text-[#6A7775] about-text ' >
-                <p className='text-xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae repudiandae commodi natus, sed enim odio fugit? Libero consequatur accusamus id.</p>
+            <img  src={Img4} width={475} alt="Christi" className='bg-[#6A7775] shadow-md' />
+            <div className='w-[30%] ml-4 text-[#6A7775] about-text ' >
+                <p className=''>I wasn't always the confident, empowered woman I am today. I struggled with self-doubt, insecurity, and fear, feeling held back from fully embracing my true potential and walking boldly in my calling.</p>
                 <br />
-                <p className='text-xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quasi quis. Ab quidem dolorum porro ratione quos eaque voluptatum veniam rem.</p>
+                <p className=''>However, through dedication, and perseverance, I Christi embarked on a profound journey of self-discovery and growth. I learned to challenge my limiting beliefs, embrace failure as a steppingstone to success, and cultivate resilience in the face of adversity.
+                Empowering other women to find their strength and ignite their confidence. I understand the unique challenges women face in today's world and I’m committed to providing them with the tools, strategies, and support they need to overcome self-doubt, step into their power, and create a life filled with purpose and passion.</p>
             </div>
         </div>
-        <button className='abt-btn text-[27px] m-7 bg-[#E7DFD8] rounded-xl hover:border-2 hover:border-white hover:bg-transparent'>My Story</button>
+        <button className='abt-btn text-[27px] m-7 font-semibold bg-[#E7DFD8] rounded-xl hover:border-2 hover:border-white hover:bg-transparent'>My Story</button>
         
     </div>
   )

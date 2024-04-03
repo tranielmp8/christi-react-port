@@ -21,7 +21,10 @@ export default function Hero() {
             <div className=''>
               <h1 className="text-[56px] mb-2 text-[#E7DFD8]">Life <br />Coaching</h1>
               <div className='text-container'>
-                <p className="text-white text-lg mb-2">Enpowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldy in Confidence</p>
+                <p className="text-white text-lg  mb-2">
+                  <span className='text-white font-semi text-3xl mb-2'>Unleash Your Confidence</span>
+                   <br /> Enpowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldy in Confidence</p>
+                <p>Discover Your Strength <br /> Ignite Your Confidence</p>
               </div>
             </div>
             <button className='mt-7 p-2 bg-[#E7DFD8] rounded-lg text-white text-[22px] hover:border-2 hover:border-white hover:bg-transparent'>Signup Now!</button>
