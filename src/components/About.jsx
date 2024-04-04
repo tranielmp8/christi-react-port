@@ -2,11 +2,15 @@ import Img4 from '../assets/images/img4.png'
 
 export default function About() {
   return (
-    <div id="About" className="about flex flex-col items-center p-7">
+    <div id="About" className="about flex flex-col items-center p-3">
         <h1 className='text-center text-[48px] mb-7 text-[#6A7775]'>Meet Christi Pride</h1>
         <div className="about-grid flex justify-center items-center bg-white w-[72%]">
-            <div className='text-[70px] pt-9 mr-9 text-[#6A7775]'>
-                C O A C H <br />C H R I S T I
+            <div className='text-[72px] font-bold p-3  text-[#6A7775] '>
+                C O A C H 
+                <br /> 
+                <p className='text-[72px]'>
+                  C H R I S T I
+                </p>
             </div>
             <img  src={Img4} width={475} alt="Christi" className='bg-[#6A7775] shadow-md' />
             <div className='w-[30%] ml-4 text-[#6A7775] about-text ' >

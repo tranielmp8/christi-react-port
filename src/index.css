@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
 }
 
+.sub-header {
+  font-family: 'montserrat', sans-serif;
+}
+
 .left-subscribe {
   width: 35%;
 }
@@ -71,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bar {

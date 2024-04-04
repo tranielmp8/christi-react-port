@@ -19,11 +19,8 @@ export default function Hero() {
           
           <div className="hero-text flex flex-col ml-96">
             <div className=''>
-              <h1 className="text-[56px] mb-2 text-[#E7DFD8]">Life <br />Coaching</h1>
-              <div className='text-container'>
-                <p className="text-white text-lg  mb-2">
-                  <span className='text-white font-semi text-3xl mb-2'>Unleash Your Confidence</span>
-                   <br /> Enpowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldy in Confidence</p>
+              <h1 className="text-[56px] mb-2 text-[#E7DFD8]">Unleash Your <br />Confidence</h1>
+              <div className='text-container text-xl ml-5'>
                 <p>Discover Your Strength <br /> Ignite Your Confidence</p>
               </div>
             </div>
