@@ -34,7 +34,7 @@ export default function Navbar() {
     </>
   return (
     <nav>
-      <div className='h-14v nav-container flex justify-center items-center text-white lg:py-5 px-20  '>
+      <div className='h-9v nav-container flex justify-center items-center text-white lg:py-5 px-13  '>
           {/* <a className='flex items-end rounded-full p-3  ml-10 logo' href="#">
             <h1 className=''>LOGO</h1>
           </a> */}
@@ -60,7 +60,7 @@ export default function Navbar() {
               <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Contact</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Consult">
-              <li className='nav-link  transition border-white cursor-pointer consult  hover:text-white rounded-lg hover:border-white hover:border-4 hover:bg-transparent'>Free Consult</li>
+              <li className='nav-link  transition border-white cursor-pointer consult  hover:bg-transparent'>Free Consult</li>
             </Link>
             </ul>
           </div>
