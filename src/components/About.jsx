@@ -23,7 +23,8 @@ export default function About() {
                 <p className=''>Yet, through the journey of faith, prayer, renewal, and inner strength, I broke free from its hold. Now, I empower women to conquer their fears and step boldly into their God-given assignments with confidence and power.&quot;</p>
             </div>
         </div>
-        <Link to="/about-me" >
+        {/* <Link to="/about-me" > */}
+        <Link to="#" >
           <button className='abt-btn text-[27px] m-7 border-2 border-white   font-semibold rounded-xl hover:border-2 hover:text-[#e2c2b3] hover:border-[#e2c2b3] hover:bg-transparent'>My Story</button>
         </Link>
         
