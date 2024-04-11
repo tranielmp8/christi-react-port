@@ -3,7 +3,7 @@ import Img5 from '../assets/images/img5.png'
 export default function Empower() {
   return (
     <div>
-        <div className="empower-container flex items-center justify-center ">
+        <div id='Empower' className="empower-container flex items-center justify-center ">
             <div className="left-empower mr-9">
               <h2 className='text-[48px] mb-9 text-center text-[#e2c2b3]'>EmpowerHer 
                 <p className='text-[35px] sub-header'>

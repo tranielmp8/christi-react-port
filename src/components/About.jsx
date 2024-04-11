@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <div id="About" className="about flex flex-col items-center p-3 mb-9">
-        <h1 className='text-center text-[48px] mb-7 text-[#e2c2b3]'>Coach Christi </h1>
+        <h1 className='text-center text-[67px] mb-7 text-[#e2c2b3]'>Coach Christi </h1>
         <div className="about-grid flex justify-center items-center bg-white w-[72%]">
             <div className='text-[57px] font-bold p-3  text-[#403234] text-center '>
                 Y O U R
@@ -25,7 +25,7 @@ export default function About() {
         </div>
         {/* <Link to="/about-me" > */}
         <Link to="#" >
-          <button className='abt-btn text-[27px] m-7 border-2 border-white   font-semibold rounded-xl hover:border-2 hover:text-[#e2c2b3] hover:border-[#e2c2b3] hover:bg-transparent'>My Story</button>
+          <button className='abt-btn text-[27px] m-9 border-2 border-white   font-semibold rounded-xl hover:border-2 hover:text-[#e2c2b3] hover:border-[#e2c2b3] hover:bg-transparent'>My Story</button>
         </Link>
         
     </div>

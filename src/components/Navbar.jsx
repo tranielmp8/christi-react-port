@@ -19,13 +19,13 @@ export default function Navbar() {
         <Link spy={true} smooth={true} to="About">
           <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>About</li>
         </Link>
+        <Link spy={true} smooth={true} to="Empower">
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Empower</li>
+        </Link>
         <Link spy={true} smooth={true} to="Services">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Services</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Servoces</li>
         </Link>
-        <Link spy={true} smooth={true} to="Projects">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Projects</li>
-        </Link>
-        <Link spy={true} smooth={true} to="Contact">
+        <Link spy={true} smooth={true} to="Footer">
           <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Contact</li>
         </Link>
        
@@ -41,26 +41,26 @@ export default function Navbar() {
         <div className='lg:flex md:flex lg:  items-center justify-around font-normal hidden'>
           <div className='flex justify-center items-center p-3'>
             <ul className='flex gap-9 mr-16 text-[16px] items-center '>
-            <Link className='' spy={true} smooth={true} to="Home">
-              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Home</li>
-            </Link>
-            <Link className='' spy={true} smooth={true} to="About">
+            <Link className='About' spy={true} smooth={true} to="About">
               <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>About</li>
             </Link>
-            <Link className='' spy={true} smooth={true} to="Technology">
-              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Coaching</li>
+            <Link className='empower' spy={true} smooth={true} to="Empower">
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Empower</li>
             </Link>
-            <Link className='rounded-full nav-logo' spy={true} smooth={true} to="Projects">
+            {/* <Link className='' spy={true} smooth={true} to="Technology">
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Coaching</li>
+            </Link> */}
+            <Link className='rounded-full nav-logo' spy={true} smooth={true} to="Home">
               <li className='nav-link nav-logo hover:text-slate-600 transition hover:border-b-2 border-white cursor-pointer rounded-full'><img src={Cp5} width={120} alt="" /></li>
             </Link>
-            <Link className='' spy={true} smooth={true} to="Projects">
-              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Projects</li>
+            {/* <Link className='' spy={true} smooth={true} to="Projects">
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Services</li>
+            </Link> */}
+            <Link className='' spy={true} smooth={true} to="Services">
+              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Services</li>
             </Link>
-            <Link className='' spy={true} smooth={true} to="Contact">
-              <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Contact</li>
-            </Link>
-            <Link className='' spy={true} smooth={true} to="Consult">
-              <li className='nav-link  transition border-white cursor-pointer consult  hover:bg-transparent'>Free Consult</li>
+            <Link className='' spy={true} smooth={true} to="Footer">
+              <li className='nav-link  transition border-white cursor-pointer consult  hover:bg-transparent'>Contact</li>
             </Link>
             </ul>
           </div>

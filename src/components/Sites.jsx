@@ -4,7 +4,7 @@ import Site3 from '../assets/images/site3.png'
 
 export default function Sites() {
   return (
-    <div id='Sites' className='sites p-12 flex flex-col min-h-screen items-center justify-center bg-white '>
+    <div id='Services' className='sites p-12 flex flex-col min-h-screen items-center justify-center bg-white '>
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-13 leading-normal  text-[#403234] site-header'>Services</h1>
       <div data-aos='fade-up' className='cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-[5rem]'>
         <div className='w-80 rounded-xl card text-white p-2 shadow-lg project-container'>

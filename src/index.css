@@ -31,15 +31,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   /* background: linear-gradient(#e2c2b3, #403234); */
+  margin-bottom: 12rem;
 } 
 
 .hero-img {
   box-shadow: 0 0 15px #e2c2b3;
+  
 }
 
 .image-container {
   position: relative;
   background: linear-gradient(#e2c2b3, #403234);
+  width: 600px;
+  height: 600px;
 }
 
 .consult {
@@ -51,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
-.text {
- 
+.banner {
+  margin-bottom: 10rem;
 }
 
 /* .teacher {
@@ -64,8 +68,13 @@ h1, h2, h3, h4, h5, h6 {
 
 } */
 
+.about {
+  margin-bottom: 11rem;
+}
+
 .about-grid {
   box-shadow: 0 0 15px #e2c2b3;
+  
 }
 
 .abt-btn {
