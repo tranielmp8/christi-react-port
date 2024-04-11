@@ -1,6 +1,6 @@
 import Img1 from '../assets/images/img1.png'
 // import Img2 from '../assets/images/img2.png'
-import Img3 from '../assets/images/img3.png'
+import Img13 from '../assets/images/13.png'
 
 
 export default function Hero() {
@@ -10,21 +10,23 @@ export default function Hero() {
           <div className="image-container flex justify-start p-12 ">
             <img width={720} className='' src={Img1} alt="laptop with coffee" />
             <img 
-            src={Img3} 
-            alt="teacher" 
-            width={525}
-            className='teacher bg-[#E7DFD8] absolute p-1'
+            src={Img13} 
+            alt="Christi " 
+            width={600}
+            className='teacher bg-[#403234] absolute '
             />
           </div>
           
           <div className="hero-text flex flex-col ml-96">
             <div className=''>
-              <h1 className="text-[56px] mb-2 text-[#E7DFD8]">Unleash Your <br />Confidence</h1>
+              <h1 className="text-[56px] mb-2 text-[#403234] text-center">EMPOWERING <br /> YOU TO <br /> OVERCOME
+              
+              </h1>
               <div className='text-container text-xl ml-5'>
-                <p>Discover Your Strength <br /> Ignite Your Confidence</p>
+                {/* <p>Discover Your Strength <br /> Ignite Your Confidence</p> */}
               </div>
             </div>
-            <button className='mt-7 p-2 bg-[#E7DFD8] rounded-lg text-white text-[22px] hover:border-2 hover:border-white hover:bg-transparent'>Signup Now!</button>
+            {/* <button className='mt-7 p-2 bg-[#E7DFD8] rounded-lg text-white text-[22px] hover:border-2 hover:border-white hover:bg-transparent'>Signup Now!</button> */}
           </div>
         </div>
     </div>

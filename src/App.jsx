@@ -1,7 +1,10 @@
 import { useEffect } from "react"
 import AOS from 'aos'
 import Navbar from "./components/Navbar"
-import Home from "./Home"
+import Home from "./pages/Home"
+import AboutMe from "./pages/AboutMe"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import OurServices from "./pages/OurServices"
 
 
 function App() {
@@ -11,8 +14,14 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar />
-      <Home />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/OurServices" element={<OurServices />} />
+        </Routes>
+      </Router>
     </div>
   )
 }

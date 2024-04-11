@@ -11,9 +11,10 @@ export default function Subscribe() {
                 </p>
               </h2>
             <div className='ml-2 border-l-8 border-[#E7DFD8] subscribe-text'>
-                <p className='mb-5 pl-2 text-[18px] text-white'>Committing to improving confidence is indeed a powerful journey that starts with self-awareness and a determination to grow personally. It's about recognizing your own worth and refusing to settle for anything less than you deserve. It's about realizing that you have the power to shape your own destiny and to pursue your dreams with unwavering determination.</p>
+                <p className='mb-5 pl-2 text-[18px] text-white'>Embarking on the journey of empowerment is a transformative commitment, rooted inself-awareness and an unwavering dedication to personal growth. It&#39;s about recognizing your inherent value and refusing to settle for anything less than what you deserve. You hold the power to shape your own destiny and pursue your dreams with relentless
+determination.</p>
                 <p className='mb-5 pl-2 text-white'>
-                Are you ready to step into a life filled with confidence, purpose, and spiritual abundance? Let's embark on this journey together. Schedule your complimentary consultation today and take the first step toward becoming the best version of yourself.</p>
+                Are you ready to step into a life overflowing with confidence, purpose, and spiritual abundance? Let&#39;s embark on this empowering journey together. Book your complimentary coaching session today and take the first empowering step towards unlocking your full potential Sites section.</p>
                 <button className='subscribe-btn ml-2 rounded-xl text-2xl hover:border-2 hover:border-white hover:bg-transparent' >Subscribe</button>
                 </div>
             </div>

@@ -8,30 +8,30 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Brown Sugar', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
 }
 
 .app {
-  background: #6a7775;
+  background: #e2c2b3;
 }
 
 .nav-link {
-  font-family: 'Brown Sugar', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 27px;
 }
 
 .nav-link:hover {
-  color: #b6f3ea;
+  color: #687477;
 }
 
 .nav-logo:hover {
-  box-shadow: 0 0 15px #e6f6ee;
+  box-shadow: 0 0 15px #687477;
 
 }
 
 .image-container {
   position: relative;
-  background-color: #e6f6ee;
+  background-color: #403234;
 }
 
 .consult {
@@ -43,8 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .teacher {
   right: -42%;
-  bottom: 16%;
+  bottom: 17%;
   z-index: 10;
+  background: linear-gradient(#403234, #896b6f);
+  box-shadow: 0 0 15px #687477;
+
 }
 
 .abt-btn {

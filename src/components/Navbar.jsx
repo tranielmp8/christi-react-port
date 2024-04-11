@@ -60,7 +60,7 @@ export default function Navbar() {
               <li className='nav-link  transition hover:border-b-2 border-white  cursor-pointer'>Contact</li>
             </Link>
             <Link className='' spy={true} smooth={true} to="Consult">
-              <li className='nav-link  transition border-white cursor-pointer consult bg-[#E7DFD8] hover:text-white rounded-lg hover:border-white hover:border-4 hover:bg-transparent'>Free Consult</li>
+              <li className='nav-link  transition border-white cursor-pointer consult  hover:text-white rounded-lg hover:border-white hover:border-4 hover:bg-transparent'>Free Consult</li>
             </Link>
             </ul>
           </div>
