@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="hero-text flex flex-col mt-7">
             <div className='hero-header'>
               <h1 className="text-[67px] mb-2 text-white 
-              text-center font-light">EMPOWERED <br /> TO  OVERCOME
+              text-center font-light hero-head">EMPOWERED <br /> TO  OVERCOME
               
               </h1>
               <div className='text-container '>
@@ -23,7 +23,7 @@ export default function Hero() {
               </div>
               
             </div>
-            <p className='text-[22px] text-white ml-36'>Empowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldly in Confidence</p>
+            <p className='text-[22px] text-white ml-36 text-hero'>Empowering Women <br /> to Discover Their Divine Purpose <br /> and Walk Boldly in Confidence</p>
             {/* <button className='mt-7 p-2 bg-[#E7DFD8] rounded-lg text-white text-[22px] hover:border-2 hover:border-white hover:bg-transparent'>Signup Now!</button> */}
           </div>
         </div>

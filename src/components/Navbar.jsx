@@ -11,7 +11,7 @@ export default function Navbar() {
     setClick(!click)
   }
   const content = <>
-    <div className='lg:hidden block absolute h-[100vh] top-16 w-full left-0 right-0 bg-[#E7DFD8] transition z-50 hamburger'>
+    <div className='lg:hidden block absolute h-[100vh] top-16 w-full left-0 right-0 bg-[#403234] transition z-50 hamburger'>
       <ul className='text-center text-xl p-20'>
         <Link spy={true} smooth={true} to="Home">
           <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Home</li>
@@ -23,7 +23,7 @@ export default function Navbar() {
           <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Empower</li>
         </Link>
         <Link spy={true} smooth={true} to="Services">
-          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Servoces</li>
+          <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Services</li>
         </Link>
         <Link spy={true} smooth={true} to="Footer">
           <li className='nav-link my-4 py-4 border-b  hover:bg-white hover:rounded'>Contact</li>
