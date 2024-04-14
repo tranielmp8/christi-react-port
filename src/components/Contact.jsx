@@ -1,6 +1,8 @@
 
 
 export default function Contact() {
+
+
   return (
     <div id="contact" className="flex flex-col justify-center items-center mt-4 p-1">
         <h1 className="text-[62px] mb-3 text-[#e2c2b3] ">Subscribe</h1>

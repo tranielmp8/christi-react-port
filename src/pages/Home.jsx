@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import Sites from "../components/Sites";
 import Subscribe from "../components/Empower";
 import Testimonial from "../components/Testimonial";
+import FlodeskForm from "../components/FlodeskForm";
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         <Subscribe />
         <Testimonial />
         <Sites />
-        <Contact />
+        <FlodeskForm />
+        {/* <Contact /> */}
         <Footer />
 
     </div>
