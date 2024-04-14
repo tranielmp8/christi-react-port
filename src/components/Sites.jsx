@@ -13,7 +13,7 @@ export default function Sites() {
             <h2 className='text-[32px] text-[#403234] flex items-center justify-center'>Unleash Your <br /> Confidence</h2>
             <p className='p-2 text-[#403234]'>Designed to help women discover who they are and their divine purpose. Through personalized guidance and self-discovery exercises, uncover your unique gifts and talents, and gain clarity on your path forward. </p>
           </div>
-        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="#">Visit</a></button>
+        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="https://app.paperbell.com/checkout/packages/71345" target='_blank'>Visit</a></button>
 
         </div>
         <div className='w-80 rounded-xl card text-white p-2 shadow-lg project-container'>
@@ -22,7 +22,7 @@ export default function Sites() {
             <h2 className='text-[32px] text-[#403234] flex items-center justify-center'>Spiritual <br /> Development</h2>
             <p className='p-2 text-[#403234]'>Deepen your spiritual connection and discover how biblical principles and effective prayer can guide you toward a life of purpose and fulfillment. Explore your faith in a supportive and empowering environment, unlocking the power of prayer to strengthen your spiritual life. </p>
           </div>
-        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="#">Visit</a></button>
+        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="https://app.paperbell.com/checkout/packages/74477" target='_blank'>Visit</a></button>
 
         </div>
         <div className='w-80 rounded-xl card text-white p-2 shadow-lg project-container'>
@@ -31,7 +31,7 @@ export default function Sites() {
             <h2 className='text-[32px] text-[#403234] flex items-center justify-center'>Let's Chat</h2>
             <p className='p-2 text-[#403234]'>The Let's Chat session is a one-time, one-on-one coaching session designed to help clients work through a specific challenge or goal. It offers a focused conversation and guidance to support clients in finding solutions and creating an action plan to overcome their obstacles and achieve their desired outcomes.</p>
           </div>
-        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="#">Visit</a></button>
+        <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="https://app.paperbell.com/checkout/bookings/new?package_id=74286" target='_blank'>Visit</a></button>
 
         </div>
       </div>
