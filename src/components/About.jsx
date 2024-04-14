@@ -1,5 +1,5 @@
 import Img4 from '../assets/images/img4.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -24,10 +24,10 @@ export default function About() {
             </div>
         </div>
         {/* <Link to="/about-me" > */}
-        <Link to="#" >
+        {/* <Link to="#" >
           <button className='abt-btn text-[27px] m-9 border-2 border-white   font-semibold rounded-xl hover:border-2 hover:text-[#e2c2b3] hover:border-[#e2c2b3] hover:bg-transparent'>My Story</button>
         </Link>
-        
+         */}
     </div>
   )
 }

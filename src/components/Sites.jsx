@@ -10,7 +10,7 @@ export default function Sites() {
         <div className='w-80 rounded-xl card text-white p-2 shadow-lg project-container'>
           <img width={400} className='bg-white rounded-xl border-2 border-[#403234]' src={Site1}  alt="courses" />
           <div >
-            <h2 className='text-[32px] text-[#403234] flex items-center justify-center'>Unleash Your <br /> Confidence</h2>
+            <h2 className='text-[32px] text-[#403234] flex items-center justify-center'>Bold <br /> Beginnings</h2>
             <p className='p-2 text-[#403234]'>Designed to help women discover who they are and their divine purpose. Through personalized guidance and self-discovery exercises, uncover your unique gifts and talents, and gain clarity on your path forward. </p>
           </div>
         <button className=' m-2 rounded-lg p-2 bg-[#403234]'><a href="https://app.paperbell.com/checkout/packages/71345" target='_blank'>Visit</a></button>
