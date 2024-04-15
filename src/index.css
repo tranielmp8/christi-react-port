@@ -264,4 +264,8 @@ input {
     justify-content: center;
     align-items: center;
   }
+
+  .foot-container {
+    flex-direction: column;
+  }
 }
