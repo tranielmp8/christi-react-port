@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 body {
-  color: #fff;  
+  color: #fff;
   font-family: 'montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Cormorant Garamond', sans-serif;
 }
 
@@ -42,11 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   /* background: linear-gradient(#e2c2b3, #403234); */
   margin-bottom: 12rem;
-} 
+}
 
 .hero-img {
   box-shadow: 0 0 15px #e2c2b3;
-  
+
 }
 
 .image-container {
@@ -84,7 +89,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-grid {
   box-shadow: 0 0 15px #e2c2b3;
-  
+  border-radius: 7px;
+
 }
 
 .abt-btn {
@@ -111,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .empower-btn {
-  background: #403234;
+  /* background: #403234; */
   padding: 5px 15px;
 }
 
@@ -124,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bar {
-  
+
   width: 50%;
   background-color: rgb(111, 161, 200);
 }
@@ -212,7 +218,7 @@ input {
     margin-right: 0;
     width: 90%;
     margin-bottom: 10px;
-    
+
   }
 
   .test-container {
@@ -220,7 +226,7 @@ input {
 
   }
 
-  .test-container > h1{
+  .test-container>h1 {
     font-size: 25px;
   }
 
@@ -232,19 +238,20 @@ input {
     padding-bottom: 2px;
     text-align: center;
   }
- 
+
   .empower-text {
     margin-left: 0;
   }
-  .empower-text > p {
+
+  .empower-text>p {
     padding-left: 7px;
   }
 
-  .right-empower > img {
+  .right-empower>img {
     width: 400px;
   }
 
-  .sites > h1 {
+  .sites>h1 {
     font-size: 35px;
     margin-bottom: 5px;
   }
@@ -255,11 +262,11 @@ input {
   }
 
   footer {
-    
+
     padding: 4rem;
   }
 
-  footer > .container {
+  footer>.container {
     margin-left: 10px;
     justify-content: center;
     align-items: center;
