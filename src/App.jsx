@@ -1,16 +1,15 @@
-import { useEffect } from "react"
-import AOS from 'aos'
-import Navbar from "./components/Navbar"
-import Home from "./pages/Home"
-import AboutMe from "./pages/AboutMe"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import OurServices from "./pages/OurServices"
-
+import { useEffect } from "react";
+import AOS from "aos";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import OurServices from "./pages/OurServices";
 
 function App() {
-  useEffect(()=>{
-    AOS.init({duration: 1000})
-  }, [])
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   return (
     <div className="app">
@@ -23,7 +22,7 @@ function App() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

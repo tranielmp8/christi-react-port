@@ -7,21 +7,21 @@ import Sites from "../components/Sites";
 import Subscribe from "../components/Empower";
 import Testimonial from "../components/Testimonial";
 import FlodeskForm from "../components/FlodeskForm";
-
+import Popup from "../components/Popup";
 
 export default function Home() {
   return (
     <div id="home" className="home">
-        <Hero />
-        <Banner />
-        <About />
-        <Subscribe />
-        <Testimonial />
-        <Sites />
-        <FlodeskForm />
-        {/* <Contact /> */}
-        <Footer />
-
+      <Popup />
+      <Hero />
+      <Banner />
+      <About />
+      <Subscribe />
+      <Testimonial />
+      <Sites />
+      <FlodeskForm />
+      {/* <Contact /> */}
+      <Footer />
     </div>
-  )
+  );
 }
