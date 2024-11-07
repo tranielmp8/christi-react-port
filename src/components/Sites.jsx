@@ -104,7 +104,7 @@ export default function Sites() {
           </div>
           <button className=" m-2 rounded-lg p-2 bg-[#403234]">
             <a
-              href="https://app.paperbell.com/checkout/bookings/new?package_id=74286"
+              href="https://app.paperbell.com/checkout/packages/74286"
               target="_blank"
             >
               Visit

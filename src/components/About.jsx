@@ -32,7 +32,7 @@ export default function About() {
           </p>
           <br />
           <p className="">
-            EmpowerHer Section: Embarking on a journey to overcome battle
+            Embarking on a journey to overcome battle
             fatigue is a transformative commitment rooted in God’s strength,
             self-awareness, and unwavering faith. It's about recognizing the
             incredible value God has placed within you and refusing to settle
